@@ -1,0 +1,393 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Wichita-Serial;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+.flexCenter {
+  display: flex;
+  row-gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flexStart {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flexEnd {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.flexColCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.flexColStart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.flexColEnd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+
+/* header  */
+.h-container{
+    width: 100%;
+}
+
+.h-menu{
+    gap: 2rem;
+    width: 100%;
+    height: 50px;
+    
+}
+.h-menu a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
+
+}
+
+.h-menu a:hover{
+    transform: scale(1.1);
+    /* color:rgb(252, 218, 0); */
+}
+
+
+/* main  */
+
+.main {
+  height: 100vh;
+  width: 100%;
+  background-color: hsl(0, 0%, 26%);
+  color: white;
+}
+
+.download a{
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #ffffff;
+    
+}
+
+.container {
+  text-align: center;
+  padding-top: 250px;
+}
+.container .hi{
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.container p {
+  width: 65%;
+  position: absolute;
+  left: 18%;
+  padding-top: 4px;
+  letter-spacing: 0.01cm;
+}
+
+/* .container p:hover{
+    color: #9c9c9c;
+    transform: 0.4s;
+    
+} */
+
+.container h1 {
+  font-size: 48px;
+}
+.container h1:hover {
+  transform: scale(110%);
+  color: rgb(252, 218, 0);
+  transition: all 0.3s ease-in-out;
+}
+.container h3 {
+  font-size: 32px;
+}
+.download{
+  all: unset;
+  margin-top: 80px;
+  padding: 10px;
+  border: 2px solid #fcfcfc;
+  color: white;
+  border-radius: 4px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.download:hover {
+  transform: scale(110%);
+  color: rgb(252, 218, 0);
+  transition: all 0.3s ease-in-out;
+}
+.row {
+  padding: 1rem;
+  border: 2px solid #111111;
+  border-radius: 5px;
+}
+.row:hover {
+  background-color: rgb(252, 218, 0);
+  transition: all 0.3s ease-in-out;
+}
+.image-container img {
+  margin-left: 70px;
+  width: 45%;
+  border-radius: 50%;
+
+  border: 2px solid #111111;
+}
+
+
+/* about me  */
+.aboutme {
+  /* margin: 5rem; */
+  margin-left: 5rem;
+  margin-right: 5rem;
+  /* padding: 2.5rem; */
+  padding-top: 4rem;
+  height: 40vh;
+}
+.aboutcontent {
+  padding: 0px;
+}
+
+.btnpriject a{
+    text-decoration: none;
+    color: black;
+}
+.image-container {
+  width: 20%;
+}
+
+
+/* details  */
+.details {
+  height: 100vh;
+  margin: 5rem;
+}
+.education {
+  padding-bottom: 2rem;
+
+  border-bottom: 1px solid rgb(252, 218, 0);
+}
+
+.level1 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 17.5px; /* 92.105% */
+  letter-spacing: -0.38px;
+}
+
+.eduactionCol {
+  margin-top: 0.5rem;
+}
+.institutuinname1 {
+  margin-top: 0.2rem;
+}
+.ed1 {
+  margin-top: 2rem;
+}
+
+.col1 {
+  width: 50%;
+}
+
+.Blackedround {
+  margin-top: 5px;
+  width: 13px;
+  height: 13px;
+  border-radius: 60%;
+  border: 2px solid #111111;
+  background-color: black;
+  margin: 2.5px;
+  margin-top: 3px;
+}
+.Blankedround {
+  margin-top: 5px;
+  width: 13px;
+  height: 13px;
+  border-radius: 60%;
+  border: 1.7px solid #111111;
+  margin: 2.5px;
+  margin-top: 3px;
+}
+.marks {
+  padding-top: 4px;
+}
+.list {
+  margin-top: 1.5rem;
+  gap: 0.5rem;
+}
+.intrestsList {
+  gap: 1rem;
+}
+
+.col2 {
+  padding-left: 10rem;
+}
+
+.experience {
+  padding-bottom: 2rem;
+
+  border-bottom: 1px solid rgb(252, 218, 0);
+}
+
+.tools {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgb(252, 218, 0);
+}
+
+
+/* projects  */
+.projects {
+  height: 100vh;
+  margin: 5rem;
+}
+.rcnt {
+  margin-bottom: 2rem;
+}
+.imgcaontainer img {
+  width: 540px;
+  border-radius: 6px;
+  /* margin-left: 45px; */
+}
+.btnpriject {
+  /* margin-top: 80px; */
+  padding: 10px;
+  border: 2px solid #070707;
+  color: rgb(0, 0, 0);
+  background-color: rgb(252, 218, 0);
+  border-radius: 4px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.secondarybutton{
+    color: #454545;
+}
+
+.buttondiv{
+    gap: 0.5rem;
+}
+.btnpriject:hover {
+  transform: scale(110%);
+  background-color: #fcfcfc;
+  color: rgb(0, 0, 0);
+  transition: all 0.3s ease-in-out;
+  
+  box-shadow: 0px 4px 4px rgba(0, 0 , 0,0.05);
+}
+.projectContainer {
+    margin-bottom: 1rem;
+  padding: 1rem;
+  border: 2px solid #070707;
+  border-radius: 6px;
+  justify-content: space-between;
+
+}
+.project{width: 50%;
+    gap: 1rem;
+}
+.projectContainer:hover{
+    transform: scale(101%);
+  background-color: rgb(252, 218, 0);
+  transition: all 0.3s ease-in-out;
+  box-shadow: #070707;
+}
+/* findme  */
+
+.findme{
+    height: 30vh;
+    background-color: #454545;
+    color: white;
+}
+.findtext{
+    font-weight: 200;
+}
+.socialMedia img{
+    width: 25px;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+
+
+@media (max-width : 600px){
+    .h-container{
+        width: 100%;
+    }
+    .download{
+        margin-top: 190px;
+    }
+
+    .aboutme{
+        height: 70vh;
+    }
+    .aboutcontent{
+        text-align: center;
+        margin-left: 0px;
+    }
+    .row{
+        flex-direction: column;
+        padding: 1rem;
+        margin: 0rem;
+        padding-top: 1rem;
+        gap: 0.5rem;
+    }
+    .image-container{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    /* .education{
+        
+    } */
+    .details{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        gap: 2rem;
+    }
+    .eduactionCol{
+        padding: 0;
+        margin: 0;
+    }
+    .col2 {
+        padding-left: 0rem;
+        width: 50%;
+      }
+      .projectContainer{
+        display: flex;
+        flex-direction: column;
+      }
+      .imgcaontainer img{
+        width: 100%;
+        padding-top: 20px;
+      }
+    .projects{
+        height: 100%;
+    }
+}
