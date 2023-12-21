@@ -50,6 +50,9 @@ html {
 /* header  */
 .h-container{
     width: 100%;
+    background-color: #fcfcfc;
+    position: fixed;
+    z-index: 1;
 }
 
 .h-menu{
